@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>      
+    <link rel="stylesheet" href="index.css">  
+</head>
+
+<!-- RESOURCES
+Lorem Ipsum Generator https://www.lipsum.com/feed/html
+Colors
+https://www.schemecolor.com/stay-in-nature.php
+https://www.schemecolor.com/winter-neutrals.php
+-->
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+<div id="container">
+     <button id="btn-1" class="fade-in" onclick="carousel('left')">◀</button>
+
+     <div id="image1" class="slide fade-in"><img class="slide-img" src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+     <div id="image2" class="slide hide"><img class="slide-img" src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+     <div id="image3" class="slide hide"><img class="slide-img" src="https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+  
+     <button id="btn-2" class="fade-in" onclick="carousel('right')">▶</button>
+  
+    <div id="caption">
+        <p id="red-text" class="slide-text fade-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla mi, suscipit sed leo sit amet, facilisis fringilla nulla. Donec malesuada orci et pulvinar tempor.</p>
+        <p id="blue-text" class="slide-text hide">Sed ultrices nec elit quis egestas. Donec mauris nisi, convallis vitae enim vel, auctor convallis risus. In lorem libero, gravida quis commodo ut, feugiat non nulla.</p>
+        <p id="yellow-text" class="slide-text hide">Aenean tempus accumsan sem, ac varius nulla laoreet ac. Pellentesque luctus ante in mauris sodales, facilisis tempor ex posuere. Sed auctor purus sit amet est consequat pulvinar eu ac nisl. </p>
+    </div>
+
+    <div id="dots" class="fade-in">
+        <span id="dot1" class="dot"></span>
+        <span id="dot2" class="dot translucent"></span>
+        <span id="dot3" class="dot translucent"></span>  
+    </div>
+
+</div>
+
+<script src="code.js">
+</script>
+
+</html>
