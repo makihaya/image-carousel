@@ -1,148 +1,149 @@
 body{
-    font-family: 'Cormorant Garamond', serif;
-    margin: 0px;
-    background-color: #DCD0C6;
-  }
-  
-  #container{
-    position: inline;
-    margin: auto;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 15vh 50vh 10vh 25vh;
-  }
-  
-  button{
-    width: 1cm;
-    height: 1cm;
-    border-radius: 50%;
-    border-style: none;
-    background-color: rgb(32, 50, 77, .75);
-    color: #F0EFEA;
-    grid-row: 2;
-  }
-  
-  #btn-1{
-    grid-column: 1/2;
-    justify-self: center;
-    margin: auto 0 auto 50%;
-    padding: 0 3px 0 0;
-  }
-  
-  #btn-2{
-    grid-column: 3/4;
-    justify-self: center;
-    margin: auto 50% auto 0;
-    padding: 0 0 0 3px;
-  }
-  
-  .slide{
-    position: inline;
-    grid-row: 2;
-    margin: 0 0 0 0;
-  }
-  
-  .hide{
-    display: none;
-  }
-  
-  .slide-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  #caption{
-    position: inline;
-    height: 100%;
-    grid-row: 3;
-    grid-column: 2/3;
-    margin: 0 0 2% 0;
-  }
-  
-  .slide-text{
-    position: inline;
-    text-align: center;
-    font-size: 75%;
-    margin: 2% 0 2% 0;
-    padding: 0 5% 0 5%;
-    color: #20324D;
-  }
-  
-  #dots{
-    position: inline;
-    justify-self: center;
-    align-self: center;
-    grid-row: 4;
-    grid-column: 2/3;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin: 0;
-  }
-  
-  .dot{  
-    height: 15px;
-    width: 15px;
-    background-color: #20324D;
-    border-radius: 50%;
-    opacity: 0.75;
-  }
-  
-  .translucent{
-    opacity: 0.4;
-  }
-  
-  .fade-in{
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
-    -moz-animation: fadeIn 2s;
-    -o-animation: fadeIn 2s;
-    -ms-animation: fadeIn 2s;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-  opacity: 0;
-  }
-    100% {
-  opacity: 1;
-  }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {
-  opacity: 0;
-  }
-    100% {
-  opacity: 1;
-  }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {
-  opacity: 0;
-  }
-    100% {
-  opacity: 1;
-  }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {
-  opacity: 0;
-  }
-    100% {
-  opacity: 1;
-  }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {
-  opacity: 0;
-  }
-    100% {
-  opacity: 1;
-  }
-  }
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0px;
+  background-color: #DCD0C6;
+  height: 100%;
+}
+
+#container{
+  position: inline;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 15vh 50vh 10vh 25vh;
+}
+
+button{
+  width: 1cm;
+  height: 1cm;
+  border-radius: 50%;
+  border-style: none;
+  background-color: rgb(32, 50, 77, .75);
+  color: #F0EFEA;
+  grid-row: 2;
+}
+
+#btn-1{
+  grid-column: 1/2;
+  justify-self: center;
+  margin: auto 0 auto 50%;
+  padding: 0 3px 0 0;
+}
+
+#btn-2{
+  grid-column: 3/4;
+  justify-self: center;
+  margin: auto 50% auto 0;
+  padding: 0 0 0 3px;
+}
+
+.slide{
+  position: inline;
+  grid-row: 2;
+  margin: 0 0 0 0;
+}
+
+.hide{
+  display: none;
+}
+
+.slide-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#caption{
+  position: inline;
+  height: 100%;
+  grid-row: 3;
+  grid-column: 2/3;
+  margin: 0 0 2% 0;
+}
+
+.slide-text{
+  position: inline;
+  text-align: center;
+  font-size: 2.5vh;
+  margin: 2% 0 2% 0;
+  padding: 0 5% 0 5%;
+  color: #20324D;
+}
+
+#dots{
+  position: inline;
+  justify-self: center;
+  align-self: center;
+  grid-row: 4;
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.dot{  
+  height: 2vh;
+  width: 2vh;
+  background-color: #20324D;
+  border-radius: 50%;
+  opacity: 0.75;
+}
+
+.translucent{
+  opacity: 0.4;
+}
+
+.fade-in{
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+opacity: 0;
+}
+  100% {
+opacity: 1;
+}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+opacity: 0;
+}
+  100% {
+opacity: 1;
+}
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+opacity: 0;
+}
+  100% {
+opacity: 1;
+}
+}
+
+@-o-keyframes fadeIn {
+  0% {
+opacity: 0;
+}
+  100% {
+opacity: 1;
+}
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+opacity: 0;
+}
+  100% {
+opacity: 1;
+}
+}
