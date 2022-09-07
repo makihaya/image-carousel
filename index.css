@@ -58,14 +58,15 @@ body{
     height: 100%;
     grid-row: 3;
     grid-column: 2/3;
+    margin: 0 0 2% 0;
   }
   
   .slide-text{
     position: inline;
     text-align: center;
-    font-size: 3vh;
-    margin: 2vh 0 2vh 0;
-    padding: 2% 5% 2% 5%;
+    font-size: 75%;
+    margin: 2% 0 2% 0;
+    padding: 0 5% 0 5%;
     color: #20324D;
   }
   
