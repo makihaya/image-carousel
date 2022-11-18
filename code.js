@@ -1,15 +1,15 @@
-const red = document.getElementById("image1");
-const blue = document.getElementById("image2");
-const yellow = document.getElementById("image3");
-const redText = document.getElementById("red-text");
-const blueText = document.getElementById("blue-text");
-const yellowText = document.getElementById("yellow-text");
+//const red = document.getElementById("image1");
+//const blue = document.getElementById("image2");
+//const yellow = document.getElementById("image3");
+const image1Text = document.getElementById("image1-text");
+const image2Text = document.getElementById("image2-text");
+const image3Text = document.getElementById("image3-text");
 const dot1 = document.getElementById("dot1");
 const dot2 = document.getElementById("dot2");
 const dot3 = document.getElementById("dot3");
 
 let imagesArr = [image1, image2, image3];
-let textArr = [redText, blueText, yellowText];
+let textArr = [image1Text, image2Text, image3Text];
 let dotsArr = [dot1, dot2, dot3];
 
 function carousel(direction){
