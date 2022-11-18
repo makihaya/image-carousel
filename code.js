@@ -1,6 +1,3 @@
-//const red = document.getElementById("image1");
-//const blue = document.getElementById("image2");
-//const yellow = document.getElementById("image3");
 const image1Text = document.getElementById("image1-text");
 const image2Text = document.getElementById("image2-text");
 const image3Text = document.getElementById("image3-text");
